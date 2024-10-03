@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.modern-card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    width: 100%;
+    max-width: 600px;
+    transition: all 0.3s ease;
+    margin: 20px;
+}
+
+.modern-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.modern-card-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modern-card-header h1 {
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+}
+
+.modern-form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.modern-input {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #e0e4e8;
+    border-radius: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modern-input:focus {
+    border-color: #5ca8ff;
+    box-shadow: 0 4px 8px rgba(92, 168, 255, 0.2);
+    outline: none;
+}
+
+.modern-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #5ca8ff;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+}
+
+.modern-button:hover {
+    background-color: #007bff;
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3);
+}
+
+.modern-secondary-button {
+    background-color: #ff7b5a;
+    margin-top: 10px;
+}
+
+.modern-secondary-button:hover {
+    background-color: #ff6b43;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 12px;
+    font-size: 14px;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+th {
+    background-color: #5ca8ff;
+    color: white;
+}
+
+td {
+    background-color: #fafbfc;
+}
+
+.table-button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.table-button:hover {
+    background-color: #45a049;
+}
+
+.table-delete {
+    background-color: #f44336;
+}
+
+.table-delete:hover {
+    background-color: #d32f2f;
+}
